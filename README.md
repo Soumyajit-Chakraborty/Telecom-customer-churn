@@ -1,4 +1,5 @@
 # Customer Churn Prediction App - built with Streamlit
+## Live Demo : [Launch app](https://churn-prediction-soumyajit-chakraborty.streamlit.app/)
 This is a interactive Streamlit web app that predicts whether a customer is likely to churn or not, depending upon various features of the customer chosen by the user. Details like Internet Service, contract type and other similar features are used. The model also considers the Tenure for which the customer has stayed and his monthly charge.
 The model is used is an **XGBClassifier Model** from the **XGBoost** Python library. The categorical data is encoded using one-hot-encoding, using **Scikit-learn**.
 
