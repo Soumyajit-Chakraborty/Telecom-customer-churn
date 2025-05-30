@@ -18,6 +18,7 @@ The model is used is an **XGBClassifier Model** from the **XGBoost** Python libr
 ## Model info 🧠
 The model was trained using XGBoost. Essentially, the model is an **XGBoost Classifier**. The data was preprocessed using one hot encoding, using the **OneHotEncoder** from sklearn. Both the model and the encoder were saved using Joblib. Next, this trained model and encoder are imported into the Streamlit application and used for preprocessing entered data and prediction. Before finalizing the XGBClassiifer, a Random Forest Classifier was also trained, but the results of XGBClassifier was more promising.
 In both the cases, [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) dataset from Kaggle was used.
+For more info and code on model training, look at the file **model_training_and_EDA.ipynb**
 
 ## Author 👨‍💻
 ### Soumyajit Chakraborty
