@@ -10,7 +10,7 @@ def load_encoder():
 
 @st.cache_resource
 def load_model():
-    mod = jb.load('churn_predictor.pkl')
+    mod = jb.load('churn_predictor_best.pkl')
     return mod
 
 
