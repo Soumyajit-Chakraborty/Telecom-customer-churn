@@ -11,7 +11,7 @@ The model is used is an **XGBClassifier Model** from the **XGBoost** Python libr
 
 ## Project files 📂
 1. **app.py** : Main streamlit file for interface
-2. **churn_predictor.pkl** : Trained XGBClassifier
+2. **churn_predictor_best.pkl** : Trained XGBClassifier
 3. **encoder.pkl** : Trained one hot encoder
 4. **requirements.txt** : Contains the dependencies required by app.py to run
 
